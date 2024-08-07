@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Real Estate Website Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="styles.css" type="text/css" rel="Stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <div id="header-hero-container…
+    <header>
+        <div class="flex container">
+            <a id="logo" href="#">STATED.</a>
+            <nav>
+                <button id="nav-toggle" class="hamburger-menu">
+                    <span class="strip"></span>
+                    <span class="strip"></span>
+                    <span class="strip"></span>
+                </button>
+
+                <ul id="nav-menu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="http://www.google.com" target="_blank">Properties</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li id="close-flyout"><span class="fas fa-times"></span></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="fade"></div>
+        <div class="hero-text">
+            <h1>Buy and sell real estate properties</h1>
+            <p></p>
+        </div>
+    </section>
+</div>
+
+<section id="how-it-works">
+    <div class="container">
+        <h2>How It Works</h2>
+        <div class="flex">
+            <div>
+                <span class="fas fa-home"></span>
+                <h4>Find a Property.</h4>
+                <p>Searching for properties??Give us a chance.</p>
+            </div>
+
+            <div>
+                <span class="fas fa-dollar-sign"></span>
+                <h4>Buy a Property.</h4>
+                <p>BUy some of the best properties.</p>
+            </div>
+
+            <div>
+                <span class="fas fa-chart-line"></span>
+                <h4>Investing.</h4>
+                <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="properties">
+    <div class="container">
+        <h2>Properties</h2>
+        <div id="properties-slider" class="slick">
+            <div>
+                <img src="data:image/jpeg;base64,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" alt="Property 1" />
+                <div class="property-details">
+                    <p class="price">$3,400,000</p>
+                    <span class="beds">6 beds</span>
+                    <span class="baths">4 baths</span>
+                    <span class="sqft">4,250 sqft.</span>
+                    <address>
+                        480 12th, Unit 14, San Francisco, CA
+                    </address>
+                </div>
+            </div>
+
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLbTGWnADS-iYHrvrCjM5BmmJ4RIDr_mx0Xg&s" alt="Property 1" />
+                <div class="property-details">
+                    <p class="price">$6,400,000</p>
+                    <span class="beds">7 beds</span>
+                    <span class="baths">5 baths</span>
+                    <span class="sqft">9,250 sqft.</span>
+                    <address>
+                        480 9th, Unit 10, San Francisco, CA
+                    </address>
+                </div>
+            </div>
+
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEtkAo8TBKnguEwbvz0p8HNe6hNbjfUDk4yg&s" alt="Property 1" />
+                <div class="property-details">
+                    <p class="price">$1,400,000</p>
+                    <span class="beds">5 beds</span>
+                    <span class="baths">3 baths</span>
+                    <span class="sqft">1,250 sqft.</span>
+                    <address>
+                        480 13th, Unit 10, San Francisco, CA
+                    </address>
+                </div>
+            </div>
+
+            <div>
+                <img src="https://res.akamaized.net/domain/image/upload/t_web/v1538713881/bigsmall_Mirvac_house2_twgogv.jpg" alt="Property 1" />
+                <div class="property-details">
+                    <p class="price">$3,400,000</p>
+                    <span class="beds">6 beds</span>
+                    <span class="baths">4 baths</span>
+                    <span class="sqft">4,250 sqft.</span>
+                    <address>
+                        480 12th, Unit 18, Washington, NZ
+                    </address>
+                </div>
+            </div>
+
+            <div>
+                <img src="https://img.freepik.com/free-photo/photorealistic-house-with-wooden-architecture-timber-structure_23-2151302742.jpg" alt="Property 1" />
+                <div class="property-details">
+                    <p class="price">$2,400,000</p>
+                    <span class="beds">5 beds</span>
+                    <span class="baths">3 baths</span>
+                    <span class="sqft">5,250 sqft.</span>
+                    <address>
+                        480 12th, Unit 14, San Francisco, CA
+                    </address>
+                </div>
+            </div>
+        </div>
+
+        <button class="rounded">View All Property Listings</button>
+    </div>
+</section>
+
+<section id="agents">
+    <div class="container">
+        <h2>Agents</h2>
+        <p class="large-paragraph">Here is the list of some of our agents with whom you could get some of your best deals.</p>
+
+        <div class="flex">
+            <div class="card">
+                <img src="https://onclickwebdesign.com/wp-content/uploads/person_1.jpg" alt="Realtor 1" />
+                <h3>Kaiara Spencer</h3>
+                <p>Real Estate Agent</p>
+            </div>
+
+            <div class="card">
+                <img src="https://onclickwebdesign.com/wp-content/uploads/person_2.jpg" alt="Realtor 1" />
+                <h3>Dave Simpson</h3>
+                <p>Real Estate Agent</p>
+            </div>
+
+            <div class="card">
+                <img src="https://onclickwebdesign.com/wp-content/uploads/person_3.jpg" alt="Realtor 1" />
+                <h3>Ben Thompson</h3>
+                <p>Real Estate Agent</p>
+            </div>
+
+            <div class="card">
+                <img src="https://onclickwebdesign.com/wp-content/uploads/person_4.jpg" alt="Realtor 1" />
+                <h3>Kyla Stewart</h3>
+                <p>Real Estate Agent</p>
+            </div>
+
+            <div class="card">
+                <img src="https://onclickwebdesign.com/wp-content/uploads/person_5.jpg" alt="Realtor 1" />
+                <h3>Rich Moffatt</h3>
+                <p>Real Estate Agent</p>
+            </div>
+
+            <div class="card">
+                <img src="https://onclickwebdesign.com/wp-content/uploads/person_6.jpg" alt="Realtor 1" />
+                <h3>Stuart Redman</h3>
+                <p>Real Estate Agent</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="the-best">
+    <div class="flex container">
+        <img src="https://onclickwebdesign.com/wp-content/uploads/property_1.jpg" alt="Property 1" />
+        <div>
+            <h2>We Are the Best Real Estate Company</h2>
+            <p class="large-paragraph">When it comes to finding your ideal property, our real estate company stands out as the premier choice. Here’s why:
+
+                1. Unmatched Expertise: With years of experience in the real estate market, our team of seasoned professionals brings unparalleled knowledge and insights to help you make informed decisions.
+                
+                2. Extensive Market Reach: We offer access to a vast portfolio of properties, from cozy apartments to luxurious estates. Our extensive network ensures you find exactly what you're looking for.
+                
+                3. Personalized Service: We understand that every client has unique needs. Our dedicated agents provide tailored solutions and personalized service to meet your specific requirements and exceed your expectations.
+                
+                4. Cutting-Edge Technology: Our advanced tools and technology streamline the buying and selling process, offering you the most efficient and effective real estate experience.
+                
+                5. Proven Track Record: Our successful track record speaks for itself. We pride ourselves on our high client satisfaction rate and the numerous positive testimonials from those who have found their dream homes with us.
+                
+                6. Commitment to Excellence: We are committed to delivering exceptional service, transparency, and integrity throughout your real estate journey. Our goal is to ensure a smooth and successful transaction from start to finish..</p>
+            
+            <ul>
+            </ul>
+            <button class="rounded">Learn More</button>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <div class="container">
+        <h2>Services</h2>
+        <div class="flex">
+            <div>
+                <div class="fas fa-home"></div>
+                <div class="services-card-right">
+                    <h3>Search Property</h3>
+                    <p>Searching for your next home or investment opportunity has never been easier. Use our advanced property search tools to find exactly what you’re looking for..</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div>
+                <div class="fas fa-dollar-sign"></div>
+                <div class="services-card-right">
+                    <h3>Buy Property</h3>
+                    <p>Purchase your favourite property and see the properties which are under your budget by filtering the price range.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div>
+                <div class="fas fa-chart-line"></div>
+                <div class="services-card-right">
+                    <h3>Investing</h3>
+                    <p>Get investment ideas from our best financial advisers.First conversation would be absolutely free.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div>
+                <div class="fas fa-building"></div>
+                <div class="services-card-right">
+                    <h3>List a Property</h3>
+                    <p>Listing your property with us is easy and rewarding. Whether you're selling your home or renting out an investment property, our platform connects you with a wide audience of potential buyers and renters..</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div>
+                <div class="fas fa-search"></div>
+                <div class="services-card-right">
+                    <h3>Property Locator</h3>
+                    <p>Discovering your dream home has never been simpler. Our Property Locator tool allows you to search for homes tailored to your needs and preferences. Whether you’re looking for a cozy apartment, a family-friendly house, or a luxury estate, our advanced search options make finding the right property straightforward and efficient..</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div>
+                <div class="fas fa-mobile-alt"></div>
+                <div class="services-card-right">
+                    <h3>Stated Apps</h3>
+                    <p>Find your desired properety and the price as per your budget.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <div class="container">
+        <h2>What Our Clients Are Saying</h2>
+        <div id="testimonials-slider">
+            <div>
+                <blockquote>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                </blockquote>
+                <div class="testimonials-caption">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_7.jpg" alt="Client 7" />
+                    <p>Nick Andros</p>
+                </div>
+            </div>
+
+            <div>
+                <blockquote>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                </blockquote>
+                <div class="testimonials-caption">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_5.jpg" alt="Client 7" />
+                    <p>Larry Underwood</p>
+                </div>
+            </div>
+
+            <div>
+                <blockquote>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                </blockquote>
+                <div class="testimonials-caption">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_8.jpg" alt="Client 7" />
+                    <p>Fran Goldsmith</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+
+        <div class="flex">
+            <div id="form-container">
+                <h3>Contact Form</h3>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" />
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" />
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" />
+
+                    <label for="message">Message</label>
+                    <textarea id="message">Write your message here..</textarea>
+
+                    <button class="rounded">Send Message</button>
+                </form>
+            </div>
+
+            <div id="address-container">
+                <label>Address</label>
+                <address>
+                    20377 Evergreen Terrace Mountain View, California, USA
+                </address>
+
+                <label>Phone</label>
+                <a href="#">232-232-2323</a>
+
+                <label>Email Address</label>
+                <a href="#">ouremail@domain.com</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="flex container">
+        <div class="footer-about">
+            <h5>About Stated</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+        </div>
+
+        <div class="footer-quick-links">
+            <h5>Quick Links</h5>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-subscribe">
+            <h5>Subscribe to our Newsletter</h5>
+            <div id="subscribe-container">
+                <input type="text" placeholder="Enter Email" />
+                <button class="right-rounded">Send</button>
+            </div>
+
+            <h5 class="follow-us">Follow Us</h5>
+            <ul>
+                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <small>
+        Copyright © 2019 All rights reserved | This template is made with <span class="fa fa-heart"></span> by <a href="https://colorlib.com">Colorlib</a>
+    </small>
+</footer>
+
+<script src="script.js"></script>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate DApp</title>
+
+    <h1>Real Estate DApp</h1>
+    <div>
+        <h2>Register Property</h2>
+        <form id="registerPropertyForm">
+            <input type="text" id="location" placeholder="Location" required>
+            <input type="number" id="price" placeholder="Price" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <div>
+        <h2>Transfer Property</h2>
+        <form id="transferPropertyForm">
+            <input type="number" id="propertyId" placeholder="Property ID" required>
+            <input type="text" id="newOwner" placeholder="New Owner Address" required>
+            <button type="submit">Transfer</button>
+        </form>
+    </div>
+    <div>
+        <h2>Get Property Details</h2>
+        <form id="getPropertyForm">
+            <input type="number" id="propertyIdDetails" placeholder="Property ID" required>
+            <button type="submit">Get Details</button>
+        </form>
+        <div id="propertyDetails"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
+
+body {
+font-family: "Roboto", "Helvetica", "Sans-serif";
+margin: 0;
+padding: 0;
+font-size: 1rem;
+font-weight: 400;
+color: #777;
+line-height: 1.7;
+}
+
+* {
+outline: none;
+}
+
+*:not(.slick-track):not(.slick-list) {
+transition: 0.4s;
+}
+
+.container {
+max-width: 1140px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.flex {
+display: flex;
+justify-content: space-between;
+}
+
+h1, h2, h3, h4, h5 {
+margin: 0;
+padding: 0;
+}
+
+h1, h2 {
+font-family: "Playfair Display", serif;
+font-weight: 800;
+}
+
+h1 {
+font-size: 3rem;
+line-height: 1.2;
+margin-bottom: 1rem;
+}
+
+h2 {
+font-size: 2.5rem;
+color: #f69314;
+margin-bottom: 1rem;
+line-height: 1.2;
+}
+
+h3 {
+font-size: 1.4rem;
+font-weight: 300;
+}
+
+h4 {
+font-size: 1.2rem;
+font-weight: 300;
+}
+
+h5 {
+font-size: 1rem;
+font-family: "Playfair Display", serif;
+}
+
+p {
+margin: 0 0 1rem;
+}
+
+button.rounded {
+background: #f69314;
+border: none;
+color: #fff;
+font-size: 16px;
+border-radius: 30px;
+padding: 10px 30px;
+line-height: 1.5;
+cursor: pointer;
+}
+
+p.large-paragraph {
+font-size: 1.25rem;
+font-weight: 300;
+}
+/* end: global styles */
+
+/* start: header styles */
+#header-hero-container {
+min-height: 600px;
+height: calc(100vh);
+position: relative;
+}
+
+header {
+background: transparent;
+padding: 1rem 0;
+border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+position: fixed;
+width: 100%;
+z-index: 3;
+}
+
+#logo {
+font-family: "Roboto", "Helvetica", "Sans-serif";
+font-size: 1.7rem;
+font-weight: 800;
+color: #fff;
+text-decoration: none;
+position: relative;
+top: 4px;
+}
+
+.hamburger-menu {
+background-color: transparent;
+border: 1px solid #fff;
+padding: 3px 5px;
+width: 30px;
+cursor: pointer;
+margin-top: 10px;
+display: none;
+}
+
+.hamburger-menu .strip {
+display: block;
+height: 1px;
+background-color: #fff;
+margin: 4px 0;
+}
+
+header ul {
+list-style-type: none;
+}
+
+header ul li {
+display: inline-block;
+margin: 0 15px;
+}
+
+#close-flyout {
+display: none;
+}
+
+header ul li a {
+color: #999;
+font-size: 16px;
+text-decoration: none;
+}
+
+header ul.is-sticky li a {
+color: #000;
+}
+
+header ul li a:hover,
+header ul li a.active {
+color: #fff;
+}
+
+header ul.is-sticky li a:hover,
+header ul.is-sticky li a.active {
+color: #f69314;
+}
+/* end: header styles */
+
+/* start: hero section styles */
+#hero {
+background: url('https://onclickwebdesign.com/wp-content/uploads/hero_1.jpg') center center no-repeat;
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+height: 100%;
+width: 100%;
+}
+
+#hero .fade {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background: rgba(52, 58, 64, 0.9);
+z-index: 1;
+}
+
+#hero .hero-text {
+position: absolute;
+top: 50%;
+margin: -75px auto 0;
+left: 0;
+right: 0;
+z-index: 2;
+color: #fff;
+width: 500px;
+text-align: center;
+}
+
+#hero .hero-text p {
+line-height: 1.5em;
+font-weight: 300;
+font-size: 1rem;
+}
+/* end: hero section styles */
+
+/* start: how it works styles */
+#how-it-works {
+padding: 3rem 0;
+background: #f8f9fa;
+text-align: center;
+}
+
+#how-it-works h2 {
+margin-bottom: 3rem;
+}
+
+#how-it-works .flex > div {
+width: 30%;
+}
+
+#how-it-works h4 {
+color: #343a40;
+margin-top: 1rem;
+}
+
+#how-it-works span.fas {
+color: #f69314;
+font-size: 35px;
+}
+
+#properties {
+margin: 4rem 0 8rem;
+position: relative;
+}
+
+#properties h2 {
+margin-bottom: 3rem;
+}
+
+#properties .container {
+position: relative;
+}
+
+#properties .container:before {
+content: "/";
+position: absolute;
+right: 80px;
+top: 18px;
+color: #999;
+}
+
+#properties-slider a.slick-arrow {
+color: #000;
+position: absolute;
+top: -78px;
+right: 0;
+text-transform: uppercase;
+letter-spacing: 0.1rem;
+text-decoration: none;
+}
+
+#properties-slider a.slick-prev {
+right: 80px;
+}
+
+#properties-slider .slick-slide {
+padding: 0 15px;
+}
+
+#properties-slider img {
+width: 100%;
+display: block;
+}
+
+#properties-slider .property-details {
+padding: 1rem;
+}
+
+#properties-slider .price {
+font-size: 1.2rem;
+color: #343a40;
+font-weight: 800;
+margin: 0 0 0.5rem 0;
+}
+
+#properties-slider .property-details span {
+font-size: 0.8rem;
+padding-right: 15px;
+}
+
+#properties-slider .property-details span.baths {
+padding-left: 10px;
+}
+
+#properties-slider .property-details span.sqft {
+padding-right: 0;
+padding-left: 10px;
+}
+
+#properties-slider .property-details span.beds,
+#properties-slider .property-details span.baths {
+border-right: 1px solid #888;
+}
+
+#properties-slider .property-details address {
+font-size: 0.8rem;
+font-style: normal;
+margin-top: 0.5rem;
+}
+
+#properties button.rounded {
+display: block;
+margin: 2rem auto 0;
+width: 350px;
+}
+
+#agents {
+margin: 4rem 0 6rem;
+padding: 0 0 6rem;
+border-bottom: 1px solid #ccc;
+}
+
+#agents p.large-paragraph {
+width: 50%;
+margin-bottom: 4rem;
+}
+
+#agents .flex {
+flex-wrap: wrap;
+padding: 0;
+}
+
+#agents .card {
+width: 32%;
+background: #f0f0f0;
+margin-bottom: 2rem;
+}
+
+#agents .card img {
+width: 100%;
+}
+
+#agents .card h3 {
+font-family: "Playfair Display", serif;
+color: #000;
+}
+
+#agents .card h3,
+#agents .card p {
+padding-left: 1rem;
+}
+
+#the-best {
+margin: 2rem 0;
+}
+
+#the-best .flex > img {
+width: 47%;
+}
+
+#the-best .flex > div {
+width: 40%;
+}
+
+#the-best ul {
+padding-left: 20px;
+margin-bottom: 4rem;
+}
+
+#the-best ul li {
+margin: 10px 0;
+}
+
+#services {
+background: #f8f9fa;
+padding: 6rem 0;
+margin: 8rem 0;
+border-bottom: 1px solid #dee2e6;
+}
+
+#services h2 {
+text-align: center;
+margin-bottom: 3rem;
+}
+
+#services .flex {
+flex-wrap: wrap;
+}
+
+#services .flex > div {
+width: 30%;
+margin-bottom: 2rem;
+}
+
+#services .flex > div .fas {
+color: #f69314;
+font-size: 40px;
+float: left;
+margin-top: 15px;
+width: 20%;
+text-align: center;
+}
+
+#services .flex > div .services-card-right {
+float: right;
+width: 75%;
+}
+
+#services .flex > div a {
+color: #f69314;
+text-decoration: none;
+}
+
+#services .flex > div a:hover {
+text-decoration: underline;
+}
+
+#testimonials {
+margin-bottom: 8rem;
+}
+
+#testimonials h2 {
+text-align: center;
+}
+
+#testimonials-slider .slick-slide {
+text-align: center;
+}
+
+#testimonials-slider blockquote {
+font-size: 1.5rem;
+font-style: italic;
+margin: 1rem auto 3rem;
+max-width: 740px;
+}
+
+#testimonials-slider .testimonials-caption {
+width: 200px;
+margin: 0 auto;
+}
+
+#testimonials-slider .testimonials-caption img {
+float: left;
+border-radius: 30px;
+width: 60px;
+}
+
+.testimonials-caption p {
+position: relative;
+top: 13px;
+font-size: 1.2rem;
+}
+
+#testimonials-slider .slick-arrow {
+text-decoration: none;
+position: absolute;
+font-size: 40px;
+color: #222;
+top: 50%;
+margin-top: -35px;
+z-index: 1;
+}
+#testimonials-slider .slick-next {
+right: 0;
+}
+/* end: testimonials styles */
+
+/* start: contact us styles */
+#contact {
+background: #f8f9fa;
+padding: 4rem 0 8rem;
+}
+
+#contact h2 {
+text-align: center;
+margin-bottom: 4rem;
+}
+
+#form-container {
+width: 58%;
+background: #fff;
+padding: 3rem;
+box-sizing: border-box;
+height: 0%;
+}
+
+#form-container h3 {
+color: #000;
+font-family: "Playfair Display", serif;
+margin-bottom: 2rem;
+}
+
+#form-container label {
+display: block;
+color: #000;
+margin-top: 1rem;
+}
+
+#form-container input,
+#form-container textarea {
+display: block;
+border-radius: 20px;
+padding: 10px;
+border: 1px solid #ced4da;
+width: 100%;
+box-sizing: border-box;
+height: 43px;
+font-family: "Roboto", "Helvetica", "Sans-serif";
+font-size: 1rem;
+color: #495057;
+}
+
+#form-container textarea {
+height: 170px;
+margin-bottom: 2rem;
+resize: none;
+}
+
+#address-container {
+width: 38%;
+background: #fff;
+padding: 1.5rem;
+box-sizing: border-box;
+height: 0%;
+}
+
+#address-container label {
+font-weight: 700;
+display: block;
+margin-top: 2rem;
+}
+
+#address-container label:first-child {
+margin-top: 0;
+}
+
+#address-container address {
+margin-bottom: 1.5rem;
+font-style: normal;
+}
+
+#address-container a {
+text-decoration: none;
+color: #f69314;
+}
+
+#address-container a:hover {
+text-decoration: underline;
+}
+/* end: contact us styles */
+
+/* start: footer styles */
+footer {
+background: #333;
+padding: 8rem 0;
+}
+
+footer .flex {
+padding-bottom: 6rem;
+border-bottom: 1px solid #777;
+}
+
+footer h5 {
+color: #fff;
+margin-bottom: 1rem;
+font-weight: 300;
+}
+
+footer h5.follow-us {
+margin-top: 1rem;
+}
+
+footer .footer-about {
+width: 47%;
+}
+
+footer .footer-about p {
+width: 65%;
+}
+
+footer .footer-quick-links {
+width: 16%;
+}
+
+footer .footer-quick-links ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+footer .footer-quick-links ul li {
+margin: 10px 0;
+}
+
+footer .footer-quick-links ul li a {
+color: #777;
+text-decoration: none;
+}
+
+footer .footer-quick-links ul li a:hover {
+color: #fff;
+}
+
+footer .footer-subscribe {
+width: 35%;
+}
+
+#subscribe-container {
+position: relative;
+}
+
+footer .footer-subscribe input {
+border-radius: 30px;
+height: 43px;
+font-family: "Roboto", "Helvetica", "Sans-serif";
+border: 1px solid #6c757d;
+background-color: transparent;
+font-size: 1rem;
+padding: 10px;
+color: #fff;
+box-sizing: border-box;
+width: 80%;
+}
+
+footer button.right-rounded {
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+background: #f69314;
+font-size: 16px;
+color: #000;
+padding: 10px 30px 9px;
+line-height: 1.5;
+cursor: pointer;
+border: none;
+position: absolute;
+right: 0;
+}
+
+footer button.right-rounded:hover {
+background: #fff;
+}
+
+footer .footer-subscribe ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+footer .footer-subscribe ul li {
+display: inline-block;
+margin: 0 16px;
+}
+
+footer .footer-subscribe ul li:first-child {
+margin-left: 0;
+}
+
+footer .footer-subscribe ul li a {
+text-decoration: none;
+color: #777;
+}
+
+footer .footer-subscribe ul li a:hover {
+color: #fff;
+}
+
+footer small {
+margin-top: 3rem;
+font-size: 1rem;
+display: block;
+text-align: center;
+}
+
+footer small a {
+color: #777;
+text-decoration: none;
+}
+
+footer small a:hover {
+color: #fff;
+}
+/* end: footer styles */
+
+/* start: media queries */
+@media (max-width: 991px) {
+#logo {
+    top: 1px;
+}
+
+#nav-toggle {
+    display: block;
+}
+
+nav ul {
+    position: fixed;
+    background: #fff;
+    right: -100%;
+    top: 0;
+    margin: 0;
+    padding: 2rem;
+    height: 100%;
+    width: 300px;
+    box-sizing: border-box;
+    box-shadow: 5px 0 10px 3px #999;
+}
+
+#close-flyout {
+    position: absolute;
+    right: 2rem;
+    top: 1.5rem;
+    font-size: 30px;
+    color: #777;
+    cursor: pointer;
+    display: block;
+    line-height: 1;
+    margin: 0;
+}
+
+nav ul li {
+    display: block;
+    margin: 20px 0;
+}
+
+nav ul li:first-child {
+    margin-top: 50px;
+}
+nav ul li a {
+    font-size: 20px;
+    color: #212529;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #f69314;
+}
+}
+
+@media (max-width: 767px) {
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.large-paragraph {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.container {
+    max-width: 540px;
+}
+
+#hero .hero-text {
+    width: 400px;
+}
+
+#agents .card {
+    width: 49%;
+}
+
+#the-best .flex > img {
+    display: none;
+}
+
+#the-best .flex > div {
+    width: 100%;
+}
+
+#testimonials-slider p {
+    font-size: 1.2rem;
+}
+
+#properties .container:before {
+    top: 2px;
+    font-size: 0.85rem;
+}
+
+#properties-slider a.slick-arrow {
+    font-size: 0.85rem;
+}
+
+#properties button.rounded {
+    width: 300px;
+}
+
+#services .flex > div {
+    width: 48%;
+}
+
+#contact .flex {
+    flex-wrap: wrap;
+}
+
+#form-container {
+    width: 100%;
+    padding: 2rem;
+}
+
+#address-container {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+footer {
+    padding: 6rem 0;
+}
+
+footer .flex {
+    flex-wrap: wrap;
+}
+
+footer .flex > div {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+footer .flex > div:first-child {
+    margin-top: 0;
+}
+
+footer .footer-about p {
+    font-size: 1rem;
+    width: 100%;
+}
+
+footer .footer-subscribe input {
+    width: 90%;
+}
+
+footer h5.follow-us {
+    margin-top: 2rem;
+}
+}
+
+@media (max-width: 500px) {
+#hero .hero-text {
+    width: 330px;
+}
+
+#agents {
+    margin: 4rem 0 3rem;
+    padding: 0 0 3rem;
+}
+
+#agents .card {
+    width: 100%;
+}
+
+#agents p.large-paragraph {
+    width: 100%;
+}
+
+#how-it-works .flex {
+    display: block;
+}
+
+#how-it-works .flex > div {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#properties button.rounded {
+    width: 250px;
+}
+
+#services {
+    padding: 4rem 0 3rem;
+    margin: 4rem 0;
+}
+
+#services .flex > div {
+    width: 100%;
+}
+
+#testimonials {
+    margin-bottom: 4rem;
+}
+
+#testimonials-slider p {
+    font-size: 1rem;
+}
+
+#testimonials-slider .slick-arrow {
+    display: none !important;
+}
+
+#contact {
+    padding: 4rem 0;
+}
+
+#contact h2 {
+    margin-bottom: 2rem;
+}
+
+#form-container {
+    padding: 1.5rem;
+}
+
+footer {
+    padding: 4rem 0;
+}
+}
+
+@media (max-width: 400px) {
+#hero .hero-text {
+ max-width: 275px;
+ width: 100%;
+}
+
+#properties button.rounded {
+ max-width: 250px;
+ width: 100%;
+}
+
+nav ul {
+width: 200px;
+}
+}
+</style>
+<script src="script.js"></script>
